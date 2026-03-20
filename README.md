@@ -14,7 +14,7 @@
 ![Level 4 Screenshot](https://github.com/JimSeanghai/os-lab-quantum-IDTB110128/blob/fb81aff3760eb665bb528cf5611fba571788a0f2/Level4.png)
 
 ## Level 5
-![Level 5 Screenshot](https://github.com/JimSeanghai/os-lab-quantum-IDTB110128/blob/631d54fb70ef46d11f984a5b45b4f38f1e3706a4/Level5.png)
+![Level 5 Screenshot](https://github.com/JimSeanghai/os-lab-quantum-IDTB110128/blob/5c29f32ddea84124bb9f82ca0c6ba806afccf79f/Level5.png)
 
 ## Level 6
 ![Level 6 Screenshot](screenshots/level6_sticky_bit.png)
