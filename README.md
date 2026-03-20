@@ -11,7 +11,7 @@
 ![Level 3 Screenshot](https://github.com/JimSeanghai/os-lab-quantum-IDTB110128/blob/e89b419e7cc6166ba231fd46259b0875730307d8/Level3.png)
 
 ## Level 4
-![Level 4 Screenshot](screenshots/level5_redteam_log.png)
+![Level 4 Screenshot](https://github.com/JimSeanghai/os-lab-quantum-IDTB110128/blob/fb81aff3760eb665bb528cf5611fba571788a0f2/Level4.png)
 
 ## Level 5
 ![Level 5 Screenshot](screenshots/level5_redteam_log.png)
