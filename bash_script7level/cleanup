@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Loop through every file in the current directory
+for file in *; do
+    # Skip directories and the script itself to avoid moving the 'cleanup' script
+    if [[ -d "$file" || "$file" == "cleanup" || "$file" == "cleanup.sh" ]]; then
+        continue
+    fi
+
+    # Extract the extension (everything after the last dot)
+    ext="${file##*.}"
+
+    # If the file has no extension, skip it or move to a 'misc' folder
+    if [[ "$file" == "$ext" ]]; then
+        ext="no_extension"
+    fi
+
+    # Check if a folder for this extension exists; if not, create it
+    if [ ! -d "$ext" ]; then
+        mkdir "$ext"
+        echo "Created directory: $ext/"
+    fi
+
+    # Move the file into its respective folder
+    mv "$file" "$ext/"
+    echo "Moved $file to $ext/"
+done
+
+echo "--- Forensic Triage Complete ---"
